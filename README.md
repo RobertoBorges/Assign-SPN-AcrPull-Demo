@@ -15,3 +15,4 @@ Copy the values into these variables.
 
 Please note that you would never really do this for non-demo code.  Use a Key Vault or the like to store your secrets.
 
+[![.NET](https://github.com/RobertoBorges/Assign-SPN-AcrPull-Demo/actions/workflows/dotnet.yml/badge.svg?branch=main)](https://github.com/RobertoBorges/Assign-SPN-AcrPull-Demo/actions/workflows/dotnet.yml)
