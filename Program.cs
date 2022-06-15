@@ -21,6 +21,7 @@ namespace CreateServicePrinciple
             // app registration in Azure. An administrator must grant consent
             // to those permissions beforehand.
             //The Client must be part of the Azure Role: Application administrator
+            //The Client must be Owner of the subscription where changes are being made
             var scopesForAzureAD = new[] { "https://graph.microsoft.com/.default" };
             var scopesForAzure = new[] { " https://management.azure.com//.default" };
 
@@ -88,7 +89,7 @@ namespace CreateServicePrinciple
 
             }
 
-            // TODO: Assign AcrPull role of an ACR to this new Service Principal
+            // Assign AcrPull role of an ACR to this new Service Principal
 
             // Request a specific token to manage azure resources
             var credential = ConfidentialClientApplicationBuilder
